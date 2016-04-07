@@ -1,6 +1,4 @@
-window.chartTitle = "Something";
-
-window.myData = 
+window.d3Data = 
 [
     { date: 1458432000, value: 5321 }, // 2016-03-20 00:00:00 GMT
     { date: 1458518400, value: 2354 }, // 2016-03-21 00:00:00 GMT

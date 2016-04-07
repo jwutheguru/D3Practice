@@ -1,0 +1,35 @@
+.d3 svg {
+    display: block;
+}
+
+.d3.linechart path,
+.d3.linechart line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2;
+    shape-rendering: crispEdge;
+}
+
+.d3.linechart text {
+    fill: #000;
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.d3.linechart .axis path,
+.d3.linechart .axis line {
+    fill: none;
+    stroke: lightgrey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.d3.linechart .axis text {
+    font: 10px sans-serif;
+}
+
+.d3.linechart text.title {
+    font: 2em Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
