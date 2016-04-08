@@ -13,6 +13,17 @@ main h1 {
     text-align: center;
 }
 
-main .d3 svg {
+#d3chart svg {
+    display: block;
     margin: 0 auto;
+}
+
+.save-container {
+    margin: 1em auto 0;
+    text-align: center;
+}
+
+.save-button {
+    padding: 6px 12px;
+    font-size: 12px;
 }
