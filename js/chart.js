@@ -2,7 +2,8 @@ $(function() {
 
     // alias data and config
     var data = window.d3Data;
-    var config = window.d3Config;
+    var pageConfig = window.pageConfig;
+    var chartConfig = window.chartConfig;
 
     // process data
     data.forEach(function(d) {
@@ -94,6 +95,6 @@ $(function() {
         .attr("x", (width / 2))             
         .attr("y", 0 - (margin.top / 2))
         .attr("text-anchor", "middle")
-        .text(config.chartTitle);
+        .text(pageConfig.chartTitle);
 
 });
